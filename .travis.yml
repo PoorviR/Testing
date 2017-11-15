@@ -1,10 +1,10 @@
-1language: python
-2python:
-3 - "2.7"
-4 - "3.5"
-5 # command to install dependencies 
-6install:
-7 - pip install -r requirements.txt
-8 # command tp run tests
-9script:
-10 - py.test
+language: python
+python:
+  - "2.7"
+  - "3.5"
+# command to install dependencies 
+install:
+  - pip install -r requirements.txt
+ # command tp run tests
+script:
+  - py.test
